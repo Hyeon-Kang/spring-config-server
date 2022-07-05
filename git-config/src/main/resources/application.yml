@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  applicaton:
+    name: config-server-example
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Hyeon-Kang/spring-config-server-repo
+          timeout: 5
